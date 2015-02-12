@@ -14,6 +14,7 @@
 		DB7D0CC51A8A3270006B958B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7D0CC41A8A3270006B958B /* Images.xcassets */; };
 		DB7D0CC81A8A3270006B958B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB7D0CC61A8A3270006B958B /* LaunchScreen.xib */; };
 		DB7D0CD41A8A3270006B958B /* SwiftColourNamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7D0CD31A8A3270006B958B /* SwiftColourNamerTests.swift */; };
+		DB7D0CDE1A8A33BD006B958B /* ColourNamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7D0CDD1A8A33BD006B958B /* ColourNamer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		DB7D0CCD1A8A3270006B958B /* SwiftColourNamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftColourNamerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7D0CD21A8A3270006B958B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB7D0CD31A8A3270006B958B /* SwiftColourNamerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftColourNamerTests.swift; sourceTree = "<group>"; };
+		DB7D0CDD1A8A33BD006B958B /* ColourNamer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourNamer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				DB7D0CBA1A8A3270006B958B /* AppDelegate.swift */,
 				DB7D0CBF1A8A3270006B958B /* ViewController.swift */,
 				DB7D0CC11A8A3270006B958B /* Main.storyboard */,
+				DB7D0CDD1A8A33BD006B958B /* ColourNamer.swift */,
 				DB7D0CC41A8A3270006B958B /* Images.xcassets */,
 				DB7D0CC61A8A3270006B958B /* LaunchScreen.xib */,
 				DB7D0CBC1A8A3270006B958B /* SwiftColourNamer.xcdatamodeld */,
@@ -218,6 +221,7 @@
 				DB7D0CC01A8A3270006B958B /* ViewController.swift in Sources */,
 				DB7D0CBB1A8A3270006B958B /* AppDelegate.swift in Sources */,
 				DB7D0CBE1A8A3270006B958B /* SwiftColourNamer.xcdatamodeld in Sources */,
+				DB7D0CDE1A8A33BD006B958B /* ColourNamer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				DB7D0CD91A8A3270006B958B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB7D0CDA1A8A3270006B958B /* Build configuration list for PBXNativeTarget "SwiftColourNamerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				DB7D0CDC1A8A3270006B958B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
