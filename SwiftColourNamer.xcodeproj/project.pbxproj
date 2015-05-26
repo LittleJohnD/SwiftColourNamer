@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DB7D0CBB1A8A3270006B958B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7D0CBA1A8A3270006B958B /* AppDelegate.swift */; };
-		DB7D0CBE1A8A3270006B958B /* SwiftColourNamer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB7D0CBC1A8A3270006B958B /* SwiftColourNamer.xcdatamodeld */; };
 		DB7D0CC01A8A3270006B958B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7D0CBF1A8A3270006B958B /* ViewController.swift */; };
 		DB7D0CC31A8A3270006B958B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7D0CC11A8A3270006B958B /* Main.storyboard */; };
 		DB7D0CC51A8A3270006B958B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7D0CC41A8A3270006B958B /* Images.xcassets */; };
@@ -31,7 +30,6 @@
 		DB7D0CB51A8A3270006B958B /* SwiftColourNamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftColourNamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7D0CB91A8A3270006B958B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB7D0CBA1A8A3270006B958B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB7D0CBD1A8A3270006B958B /* SwiftColourNamer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftColourNamer.xcdatamodel; sourceTree = "<group>"; };
 		DB7D0CBF1A8A3270006B958B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB7D0CC21A8A3270006B958B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB7D0CC41A8A3270006B958B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				DB7D0CDD1A8A33BD006B958B /* ColourNamer.swift */,
 				DB7D0CC41A8A3270006B958B /* Images.xcassets */,
 				DB7D0CC61A8A3270006B958B /* LaunchScreen.xib */,
-				DB7D0CBC1A8A3270006B958B /* SwiftColourNamer.xcdatamodeld */,
 				DB7D0CB81A8A3270006B958B /* Supporting Files */,
 			);
 			path = SwiftColourNamer;
@@ -220,7 +217,6 @@
 			files = (
 				DB7D0CC01A8A3270006B958B /* ViewController.swift in Sources */,
 				DB7D0CBB1A8A3270006B958B /* AppDelegate.swift in Sources */,
-				DB7D0CBE1A8A3270006B958B /* SwiftColourNamer.xcdatamodeld in Sources */,
 				DB7D0CDE1A8A33BD006B958B /* ColourNamer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,19 +423,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DB7D0CBC1A8A3270006B958B /* SwiftColourNamer.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DB7D0CBD1A8A3270006B958B /* SwiftColourNamer.xcdatamodel */,
-			);
-			currentVersion = DB7D0CBD1A8A3270006B958B /* SwiftColourNamer.xcdatamodel */;
-			path = SwiftColourNamer.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = DB7D0CAD1A8A326F006B958B /* Project object */;
 }

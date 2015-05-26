@@ -55,7 +55,6 @@ class ViewController: UIViewController {
     
     func colourMyView()
     {
-        // local method called by other two methods UIView *myView = [self view]
         self.view.backgroundColor = calcColor()
     }
 
